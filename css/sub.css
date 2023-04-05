@@ -1,0 +1,32 @@
+@charset "utf-8";
+
+#subWrap {height: 100vh}
+h2 {font-family: 'Lalezar', cursive; font-size: 75px; margin-bottom:30px; text-align: center;}
+p {margin-bottom: 20px; font-size: 24px; line-height: 1.8; text-align: center; width: 60%}
+.btn {display: inline-block; padding: 15px 40px; margin-top: 40px;font-size: 20px; border: 1px solid #603195; color: #603195; transition: all 0.3s; border-radius: 50px;}
+.btn:hover {background: #603195; color: #fff;}
+
+/* html */
+#subWrap.html {position: relative; display: flex; justify-content: space-around; align-items: center; flex; direction: row; height: 100vh}
+#subWrap > div.img {width: 50%; height: 100vh; background: url(../sub1/img/img_main_bg05.png) no-repeat center/cover; }
+#subWrap.html > div.cont {display: flex; flex-direction: column; width: 50%; justify-content: center; align-items: center;}
+
+/* javascript */
+#subWrap.javascript {width: 100%; height: 100vh; background:url(../sub2/img/img_main03.png) no-repeat center/cover; display: flex; flex-direction: column; align-items: center; justify-content: center;}
+#subWrap.javascript .cont {display: flex; flex-direction: column;  align-items: center;}
+#subWrap.javascript h2 {color: #fff; font-weight: 700;}
+#subWrap.javascript p {font-weight: 500; color: rgba(255, 255, 255, 0.7);}
+#subWrap.javascript .btn {background: #ffffff; color: #005fcc; border: 1px solid transparent;}
+#subWrap.javascript .btn:hover {background: #005fcc; color: #fff; border: 1px solid transparent;}
+
+/* react */
+#subWrap.react {justify-content: center; align-items: center; background: linear-gradient(45deg, rgba(241, 126, 126, 0.15), rgba(242, 190, 87, 0.0)), url(../sub3/img/img_main_bg04.png) no-repeat center/cover;}
+#subWrap.react .cont {display: flex; flex-direction: column; align-items: center;}
+#subWrap.react .btn:hover {background: #50382d; border-color: #50382d;}
+
+#subWrap.react .cont h2 {font-size: 60px; color: #fff;}
+#subWrap.react .btn {border: 1px solid #fff; color: #fff;}
+
+/* java*/
+#subWrap.java{display: flex; justify-content: center; align-items: center; background:url(../sub4/img/img_main_bg02.png) no-repeat center/cover;}
+#subWrap.react .cont {position: absolute; padding: 25px; color: #fff; top: 50%; left: 50%; transform: translate(-50%, -50%);}
